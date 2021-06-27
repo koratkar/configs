@@ -1,7 +1,11 @@
 syntax on
-set tabstop=4
+set tabstop=2
+set expandtab
 set ai
+set smartindent
 set number
-set ruler
 highlight Comment ctermfg=green
 set hlsearch
+
+set laststatus=2
+set statusline=%F%m%r%h%w%=\ [%Y]\ [%{&ff}]\ [%l\:%c]\ [%L] 
